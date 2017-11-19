@@ -1,0 +1,19 @@
+{
+  "name": "unnamed-snack",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "dependencies": {
+    "@expo/vector-icons": "5.2.0",
+    "expo": "^22.0.0",
+    "firebase": "^4.6.2",
+    "react": "16.0.0-beta.5",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-22.0.0.tar.gz",
+    "react-native-elements": "^0.17.0",
+    "react-native-navigation": "^1.1.275",
+    "react-native-vector-icons": "^4.4.2",
+    "react-navigation": "^1.0.0-beta.19"
+  }
+}
