@@ -8,6 +8,7 @@ import ChatScreen from './ChatScreen';
 import LoginScreen from './LoginScreen';
 import LottieScreen from './LottieScreen';
 import AddMessage from './AddMessage';
+import MemesScreen from './MemeScreen';
 
 const MainScreenNavigator = TabNavigator({
   Home: { screen: HomeScreen },
@@ -19,6 +20,9 @@ const MainScreenNavigator = TabNavigator({
 const RootNavigator = DrawerNavigator({
     Home: {
         screen: RootNavigationScreen
+    },
+    Meme : {
+      screen : MemesScreen
     },
     Lottie : {
         screen : LottieScreen

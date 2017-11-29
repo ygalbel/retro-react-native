@@ -99,7 +99,7 @@ const firebaseConfig = {
               return (
                 <ListItem
                   title={item.item.title}
-                  subtitle="aaaabbbb4"
+                  subtitle={item.item.message}
                   avatar={item.item.urlToImage}
                   hideChevron={true}
                   onPress={() => navigate('Chat')}
